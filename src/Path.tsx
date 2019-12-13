@@ -8,7 +8,7 @@ function Path({
   pathRadius,
   strokeWidth,
   style,
-  ref,
+  pathRef,
 }: {
   className?: string;
   counterClockwise: boolean;
@@ -16,7 +16,7 @@ function Path({
   pathRadius: number;
   strokeWidth: number;
   style?: object;
-  ref?: any;
+  pathRef?: any;
 }) {
   return (
     <path
@@ -28,7 +28,7 @@ function Path({
       })}
       strokeWidth={strokeWidth}
       fillOpacity={0}
-      ref={ref}
+      ref={pathRef}
     />
   );
 }

@@ -107,7 +107,7 @@ class CircularProgressbar extends React.Component<CircularProgressbarProps> {
           pathRadius={pathRadius}
           strokeWidth={strokeWidth}
           style={styles.path}
-          ref={pathRef}
+          pathRef={pathRef}
         />
 
         {text ? (
